@@ -43,7 +43,7 @@ Zostały one zebrane i udostępnione przez Centers for Disease Control and Preve
 ### 1️⃣ Sklonuj repozytorium:
 ```bash
    git clone https://github.com/hubert99x/heart-disease-analysis
-   cd heart-disease-analysis-project/local_version
+   cd heart-disease-analysis/local_version
 ```
 
 ### 2️⃣ Utwórz środowisko wirtualne:
