@@ -1,4 +1,8 @@
-# 📊 Opis projektu
+## ⚠️ Projekt można uruchomić na dwa sposoby ⬇️
+
+<br>
+
+## 📊 Opis projektu
 
 Projekt zaliczeniowy na studiach z przedmiotu **Big Data**. Celem pracy było przeprowadzenie analizy danych mającej na celu zbadanie czynników ryzyka chorób serca w kontekście demografii i nawyków zdrowotnych. 
 
@@ -25,27 +29,22 @@ Zostały one zebrane i udostępnione przez Centers for Disease Control and Preve
 
 ---
 
-## 🚀 Uruchomienie projektu
-
-Projekt można uruchomić na dwa sposoby:
-
-### 🔹 1. Wersja lokalna (Jupyter Notebook / VS Code)
+## 🚀 Uruchomienie projektu - Wersja lokalna (Jupyter Notebook / VS Code)
 
 #### ✅ Wymagania wstępne:
 - Python 3.10+
 - `pip`
 - Środowisko wirtualne
 
-#### 📦 Instalacja:
-1. Sklonuj repozytorium:
+### 📦 Instalacja:
+
+### 1️⃣ Sklonuj repozytorium:
 ```bash
    git clone https://github.com/hubert99x/heart-disease-analysis
    cd heart-disease-analysis-project/local_version
 ```
 
----
-
-### Utwórz środowisko wirtualne:
+### 2️⃣ Utwórz środowisko wirtualne:
 
 #### Linux/macOS:
 ```bash
@@ -65,13 +64,13 @@ source .venv/Scripts/activate
 ```
 ---
 
-### Zainstaluj zależności:
+### 3️⃣ Zainstaluj zależności:
 ```bash
 pip install -r requirements.txt
 ```
 ---
 
-### ▶️ Uruchom Jupyter Notebook:
+### 4️⃣ Uruchom Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
@@ -80,10 +79,11 @@ Następnie otwórz plik `heart_analysis_local_version.ipynb` w katalogu `local_v
 
 ---
 
-### 🔹 2. Wersja na platformie Databricks
+## 🚀 Uruchomienie projektu - Wersja na platformie Databricks
 
-Zaimportuj plik. W Databricks nie ma potrzeby tworzenia wirtualnego środowiska `venv` ani instalowania zależności `requirements.txt`.
-Ponieważ większość bibliotek (np. pandas, matplotlib, pyspark) jest już preinstalowana w środowisku Databricks Runtime.
+Zaimportuj plik `heart_analysis_databricks.ipynb.ipynb` z katalogu `databricks_version`.
+
+W Databricks nie ma potrzeby tworzenia wirtualnego środowiska `venv` ani instalowania zależności `requirements.txt`, ponieważ większość bibliotek (np. pandas, matplotlib, pyspark) jest już preinstalowana w środowisku Databricks Runtime.
 
 
 
