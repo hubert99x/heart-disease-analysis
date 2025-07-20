@@ -1,4 +1,4 @@
-## ⚠️ Projekt można uruchomić na dwa sposoby ⬇️
+# 🫀 Analiza czynników ryzyka chorób sercowo-naczyniowych
 
 <br>
 
@@ -29,7 +29,9 @@ Zostały one zebrane i udostępnione przez Centers for Disease Control and Preve
 
 ---
 
-## 🚀 Uruchomienie projektu - Wersja lokalna (Jupyter Notebook / VS Code)
+<br>
+
+# 🚀 Uruchomienie projektu - Wersja lokalna (Jupyter Notebook / VS Code)
 
 #### ✅ Wymagania wstępne:
 - Python 3.10+
@@ -79,7 +81,9 @@ Następnie otwórz plik `heart_analysis_local_version.ipynb` w katalogu `local_v
 
 ---
 
-## 🚀 Uruchomienie projektu - Wersja na platformie Databricks
+<br>
+
+# 🚀 Uruchomienie projektu - Wersja na platformie Databricks
 
 Zaimportuj plik `heart_analysis_databricks.ipynb.ipynb` z katalogu `databricks_version`.
 
