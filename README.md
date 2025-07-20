@@ -14,7 +14,7 @@ Wartości użyte w analizie: Czy u badanej osoby zdiagnozowano chorobę serca, B
 
 - `databricks_version/` – Wersja projektu do uruchomienia wyłącznie na platformie Databricks  
   - `heart_analysis_databricks.ipynb`
-- `local_version/` – Wersja projektu do uruchomienia lokalnie (VS Code, Jupyter Notebook)  
+- `local_version/` – Wersja projektu do uruchomienia lokalnie (Jupyter Notebook)  
   - `heart_analysis_local_version.ipynb`
 - `.gitignore` – Lista plików i folderów ignorowanych przez Git
 - `README.md` – Dokumentacja i opis projektu
@@ -31,12 +31,12 @@ Zostały one zebrane i udostępnione przez Centers for Disease Control and Preve
 
 <br>
 
-# 🚀 Uruchomienie projektu - Wersja lokalna (Jupyter Notebook / VS Code)
+# 🚀 Uruchomienie projektu - Wersja lokalna (Jupyter Notebook)
 
 #### ✅ Wymagania wstępne:
-- Python 3.10+
-- `pip`
-- Środowisko wirtualne
+Python 3.10+ (z `pip`)
+
+---
 
 ### 📦 Instalacja:
 
@@ -64,20 +64,18 @@ source .venv/bin/activate
 python3 -m venv .venv
 source .venv/Scripts/activate
 ```
----
 
 ### 3️⃣ Zainstaluj zależności:
 ```bash
 pip install -r requirements.txt
 ```
----
 
 ### 4️⃣ Uruchom Jupyter Notebook:
 ```bash
 jupyter notebook
 ```
 
-Następnie otwórz plik `heart_analysis_local_version.ipynb` w katalogu `local_version`.
+Następnie otwórz plik `heart_analysis_local_version.ipynb` w katalogu `local_version`. Jupyter Notebook otworzy się w przeglądarce.
 
 ---
 
